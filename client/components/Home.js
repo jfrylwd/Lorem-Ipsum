@@ -71,35 +71,55 @@ export const Home = () => {
         </div>
         <div className="">
           <form className="flex space-around flex-col">
-            <div className="flex">
-              <label className="text-end" htmlFor="name" />
-              Name:
-              <input className="mx-1" name="name" type="text" />
-            </div>
-            <div className="flex space-between">
-              <label className="text-end" htmlFor="email" />
-              Email:
-              <input className="mx-1" name="email" type="text" />
-            </div>
-            <div className="flex space-between">
-              <label className="text-end" htmlFor="confirmemail" />
-              Confirm Email:
-              <input className="mx-1" name="confirmemail" type="text" />
-            </div>
-            <div className="flex space-between">
-              <label className="text-end" htmlFor="phone" />
-              Phone:
-              <input className="mx-1" name="phone" type="text" />
-            </div>
-            <div className="flex space-between">
-              <label className="text-end" htmlFor="password" />
-              Password:
-              <input className="mx-1" name="password" type="password" />
-            </div>
-            <div className="flex space-between">
-              <label className="text-end" htmlFor="news" />
+            <label className="mx-1" htmlFor="name" />
+            Name:
+            <textarea
+              style={{ resize: "none " }}
+              cols="50"
+              className="m-1"
+              name="name"
+              type="text"
+            />
+            <label className="mx-1" htmlFor="email" />
+            Email:
+            <textarea
+              style={{ resize: "none " }}
+              cols="50"
+              className="m-1"
+              name="email"
+              type="text"
+            />
+            <label className="mx-1" htmlFor="confirmemail" />
+            Confirm Email:
+            <textarea
+              style={{ resize: "none " }}
+              cols="50"
+              className="m-1"
+              name="confirmemail"
+              type="text"
+            />
+            <label className="mx-1" htmlFor="phone" />
+            Phone:
+            <textarea
+              style={{ resize: "none " }}
+              cols="50"
+              className="m-1"
+              name="phone"
+              type="text"
+            />
+            <label className="mx-1" htmlFor="password" />
+            Password:
+            <textarea
+              style={{ resize: "none " }}
+              cols="50"
+              className="m-1"
+              name="password"
+              type="password"
+            />
+            <label className="mx-1" htmlFor="news" />
+            <div className="flex items-baseline">
               Subscribe to Newsletter:
-              <input name="news" type="checkbox" className="mx-1" />
+              <input cols="50" name="news" type="checkbox" className="mx-1" />
             </div>
             <div>
               <button type="submit" className="pill">

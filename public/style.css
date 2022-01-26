@@ -164,14 +164,18 @@ p {
   background-color: wheat;
 }
 
-input {
-  padding: 0.4rem;
+input,
+textarea {
   outline-color: var(--primary);
   border-color: var(--primary);
   border-width: 1px;
 }
 .block {
   display: block;
+}
+
+.items-baseline {
+  align-items: baseline;
 }
 .welcome {
   display: flex;
@@ -263,4 +267,5 @@ video {
   background-color: midnightblue;
   border-style: hidden;
   color: white;
+  cursor: pointer;
 }
