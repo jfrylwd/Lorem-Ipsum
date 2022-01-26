@@ -5,16 +5,18 @@ import { logout } from "../store";
 
 const Navbar = () => (
   <div className="navbar">
-    <span className="header ml-2">Lorem-Ipsum</span>
+    <span className="header ml-2">
+      <a href="#top">Lorem-Ipsum</a>
+    </span>
     <nav>
       <div>
-        <Link to="/">Components</Link>
-        <Link to="/">Text and Images</Link>
+        <a href="#auth">Components</a>
+        <a href="#getstarted">Text and Images</a>
       </div>
       <div>
-        <Link to="/">
+        <a href="#auth">
           <button type="button">Sign Up</button>
-        </Link>
+        </a>
         <Link to="/">
           <button type="button">Login</button>
         </Link>

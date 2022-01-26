@@ -7,7 +7,7 @@ import { connect } from "react-redux";
 export const Home = () => {
   return (
     <>
-      <div className="container splash">
+      <div id="#welcome" className="container splash">
         <video muted autoPlay="autoplay" loop>
           <source src="waves.mp4" type="video/mp4"></source>
         </video>
@@ -31,8 +31,8 @@ export const Home = () => {
         {/* Next view */}
         {/* <span className="scroll">Scroll down</span> */}
       </div>
-
-      <div id="getstarted" className="content flex">
+      <span id="getstarted"></span>
+      <div className="content flex">
         <img src="/nygold.jpeg" className="h-24 m-1" />
 
         <div className="flex-col">
@@ -60,6 +60,16 @@ export const Home = () => {
             </p>
           </div>
         </div>
+      </div>
+      {/* next view */}
+      <div id="auth" className="content flex">
+        <div>
+          <p className="header">Create an Account for Free</p>
+          <p>
+            <a>Already a member? Log in instead</a>
+          </p>
+        </div>
+        <div></div>
       </div>
     </>
   );
