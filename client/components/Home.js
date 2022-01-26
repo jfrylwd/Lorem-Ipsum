@@ -6,24 +6,28 @@ import { connect } from "react-redux";
  */
 export const Home = () => {
   return (
-    <container className="container">
-      <video muted autoPlay="autoplay" loop>
-        <source src="waves.mp4" type="video/mp4"></source>
-      </video>
-      <div className="welcome">
-        <div>
-          <h3>Welcome to Lorem</h3>
+    <>
+      <div className="container splash">
+        <video muted autoPlay="autoplay" loop>
+          <source src="waves.mp4" type="video/mp4"></source>
+        </video>
+        <div className="welcome">
+          <div>
+            <h3>Welcome to Lorem</h3>
+          </div>
+          <div>
+            <p>
+              This is a site intended to display the web design capabilities of
+              Jeffrey Wood (MFA 2021) artist turned software engineer.
+            </p>
+          </div>
+          <button type="button">Get Started</button>
         </div>
-        <div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-            aliquam nemo magnam assumenda, est asperiores dolorem dolor labore
-            enim voluptate.
-          </p>
-        </div>
-        <button type="button">Get Started</button>
       </div>
-    </container>
+      <div className="content header">
+        Lorem, where things work, beautifully
+      </div>
+    </>
   );
 };
 

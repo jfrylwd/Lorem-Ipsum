@@ -21,11 +21,12 @@ form div {
 }
 
 nav {
-  padding: 0rem 1rem 0rem 1rem;
-  width: 70%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
+  align-items: end;
 }
+
 .header {
   font-size: 2rem;
   margin-left: 2rem;
@@ -39,16 +40,46 @@ nav {
   position: fixed;
   width: 100vw;
   background-color: white;
+  z-index: 1;
 }
 
 .navbar a {
   margin-left: 1em;
 }
 
+.navbar button {
+  background-color: white;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 99px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.navbar button:hover {
+  background-color: black;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 99px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  color: white;
+  cursor: pointer;
+}
+
 .container {
   width: 100vw;
   height: 90vh;
   display: grid;
+}
+
+.content {
+  width: 100vw;
+  height: 90vh;
+  display: grid;
+  z-index: 1;
+  background-color: white;
+  padding: 4rem;
 }
 
 .welcome {
@@ -61,12 +92,6 @@ nav {
   position: absolute;
   color: white;
   font-size: 22px;
-}
-
-video {
-  min-height: 100vh;
-
-  overflow: hidden;
 }
 
 .welcome div {
@@ -90,4 +115,15 @@ video {
   background-color: black;
   color: white;
   cursor: pointer;
+}
+
+video {
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+  position: fixed;
+}
+
+.splash {
+  z-index: -1;
 }
