@@ -17,9 +17,9 @@ export const Home = () => {
           </div>
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo
-              omnis, ullam laboriosam eaque aliquid sit reprehenderit ut
-              quibusdam molestiae impedit?
+              Best viewed on desktop/laptop - for now. Lorem ipsum dolor sit
+              amet consectetur, adipisicing elit. Illo omnis, ullam laboriosam
+              eaque aliquid sit reprehenderit ut quibusdam molestiae impedit?
             </p>
           </div>
           <a href="#getstarted">
