@@ -6,7 +6,7 @@ import { logout } from "../store";
 const Navbar = () => (
   <div className="navbar">
     <span className="header ml-2">
-      <a href="#top">Lorem-Ipsum</a>
+      <a href="#top">Lorem</a>
     </span>
     <nav>
       <div>

@@ -62,14 +62,52 @@ export const Home = () => {
         </div>
       </div>
       {/* next view */}
-      <div id="auth" className="content flex">
-        <div>
+      <div id="auth" className="content flex bg-lightgrey">
+        <div className="px-4">
           <p className="header">Create an Account for Free</p>
           <p>
             <a>Already a member? Log in instead</a>
           </p>
         </div>
-        <div></div>
+        <div className="">
+          <form className="flex space-around flex-col">
+            <div className="flex">
+              <label className="text-end" htmlFor="name" />
+              Name:
+              <input className="mx-1" name="name" type="text" />
+            </div>
+            <div className="flex space-between">
+              <label className="text-end" htmlFor="email" />
+              Email:
+              <input className="mx-1" name="email" type="text" />
+            </div>
+            <div className="flex space-between">
+              <label className="text-end" htmlFor="confirmemail" />
+              Confirm Email:
+              <input className="mx-1" name="confirmemail" type="text" />
+            </div>
+            <div className="flex space-between">
+              <label className="text-end" htmlFor="phone" />
+              Phone:
+              <input className="mx-1" name="phone" type="text" />
+            </div>
+            <div className="flex space-between">
+              <label className="text-end" htmlFor="password" />
+              Password:
+              <input className="mx-1" name="password" type="password" />
+            </div>
+            <div className="flex space-between">
+              <label className="text-end" htmlFor="news" />
+              Subscribe to Newsletter:
+              <input name="news" type="checkbox" className="mx-1" />
+            </div>
+            <div>
+              <button type="submit" className="pill">
+                Subimt
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </>
   );
