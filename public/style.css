@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: sans-serif;
 }
@@ -10,12 +15,79 @@ label {
   display: block;
 }
 
-nav a {
-  display: inline-block;
-  margin: 1em;
-}
-
 form div {
   margin: 1em;
   display: inline-block;
+}
+
+nav {
+  padding: 0rem 1rem 0rem 1rem;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  font-size: 2rem;
+  margin-left: 2rem;
+  font-weight: 300;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding: 1rem;
+  position: fixed;
+  width: 100vw;
+  background-color: white;
+}
+
+.navbar a {
+  margin-left: 1em;
+}
+
+.container {
+  width: 100vw;
+  height: 90vh;
+  display: grid;
+}
+
+.welcome {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  top: 20%;
+  left: 30%;
+  position: absolute;
+  color: white;
+  font-size: 22px;
+}
+
+video {
+  min-height: 100vh;
+
+  overflow: hidden;
+}
+
+.welcome div {
+  margin: 1rem;
+}
+.welcome h3 {
+  font-size: 3rem;
+  font-weight: 300;
+  font-kerning: auto;
+}
+.welcome button {
+  background-color: white;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin: 1rem;
+  border-radius: 99px;
+  border-style: hidden;
+  font-size: 22px;
+}
+
+.welcome button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
 }
