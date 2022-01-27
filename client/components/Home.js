@@ -23,7 +23,6 @@ export const Home = () => {
             </p>
           </div>
           <a href="#getstarted">
-            {" "}
             <button type="button">Get Started</button>
           </a>
         </div>
@@ -33,7 +32,7 @@ export const Home = () => {
       </div>
       <span id="getstarted"></span>
       <div className="content flex">
-        <img src="/nygold.jpeg" className="h-24 m-1" />
+        <img src="/nygold.jpeg" className="m-1 h-24 responsive" />
 
         <div className="flex-col">
           <p className="header ml-2 block px-4">
@@ -41,7 +40,7 @@ export const Home = () => {
           </p>
 
           <div className="ml-2 my-2 px-4">
-            <p className="">
+            <p className="intro">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo
               omnis, ullam laboriosam eaque aliquid sit reprehenderit ut
               quibusdam molestiae impedit? Quasi quam autem impedit, excepturi
