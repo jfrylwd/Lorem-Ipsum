@@ -61,7 +61,7 @@ export const Home = () => {
         </div>
       </div>
       {/* next view */}
-      <div id="auth" className="content flex bg-lightgrey">
+      <div id="auth" className="content flex bg-lightgrey auth">
         <div className="px-4">
           <p className="header">Create an Account for Free</p>
           <p>

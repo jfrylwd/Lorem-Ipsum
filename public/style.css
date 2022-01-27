@@ -279,7 +279,7 @@ video {
   cursor: pointer;
 }
 
-@media (max-width: 1070px) {
+@media (max-width: 1080px) {
   /* .showcase,
   .showcase header
   {
@@ -301,5 +301,46 @@ video {
   .welcome h3 {
     font-size: 22px;
     line-height: normal;
+  }
+}
+.toggle {
+  top: 1%;
+  right: 5%;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  background: url("menu.png");
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+  display: none;
+}
+.toggle.active {
+  background: url(favicon.ico);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .auth {
+    flex-direction: column;
+  }
+  p .auth {
+    line-height: normal;
+  }
+  .header {
+    font-size: 22px;
+  }
+  .content {
+    padding: 1rem;
+  }
+  .toggle {
+    display: block;
+  }
+  nav {
+    display: none;
   }
 }
