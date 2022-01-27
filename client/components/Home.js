@@ -32,13 +32,13 @@ export const Home = () => {
       </div>
       <span id="getstarted"></span>
       <div className="content flex where">
-        <div>
-          <img src="/nygold.jpeg" className="m-1 h-24" />
+        <div className="m-1 w-24">
+          <img src="/nygold.jpeg" />
         </div>
-        <div className="flex-col ml-2 block px-4">
+        <div className="flex-col intro block">
           <p className="header">Lorem, where things work, beautifully</p>
 
-          <p className="intro">
+          <p className="">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo
             omnis, ullam laboriosam eaque aliquid sit reprehenderit ut quibusdam
             molestiae impedit? Quasi quam autem impedit, excepturi cum eos
