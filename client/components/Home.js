@@ -17,9 +17,9 @@ export const Home = () => {
           </div>
           <div>
             <p>
-              Best viewed on desktop/laptop - for now. Lorem ipsum dolor sit
-              amet consectetur, adipisicing elit. Illo omnis, ullam laboriosam
-              eaque aliquid sit reprehenderit ut quibusdam molestiae impedit?
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo
+              omnis, ullam laboriosam eaque aliquid sit reprehenderit ut
+              quibusdam molestiae impedit?
             </p>
           </div>
           <a href="#getstarted">
@@ -31,8 +31,8 @@ export const Home = () => {
         {/* <span className="scroll">Scroll down</span> */}
       </div>
       <span id="getstarted"></span>
-      <div className="content flex where">
-        <div className="m-1 w-24">
+      <div className="content flex justify-center where">
+        <div className="m-1 w-24 flex ">
           <img src="/nygold.jpeg" />
         </div>
         <div className="flex-col intro block">

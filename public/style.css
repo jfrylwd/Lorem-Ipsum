@@ -86,7 +86,7 @@ nav {
 }
 .w-24 {
   max-width: 24rem;
-  height: auto;
+  height: 100%;
 }
 img {
   width: 100%;
