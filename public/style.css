@@ -313,7 +313,9 @@ video {
   color: white;
   cursor: pointer;
 }
-
+.intro p {
+  margin-bottom: 4rem;
+}
 @media (max-width: 1080px) {
   /* .showcase,
   .showcase header
@@ -390,5 +392,8 @@ video {
   .intro {
     width: 100%;
     padding-left: 0;
+  }
+  .intro p {
+    margin-bottom: 0rem;
   }
 }
