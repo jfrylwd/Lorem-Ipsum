@@ -5,7 +5,7 @@ import Routes from "./Routes";
 import Footer from "./components/Footer";
 const App = () => {
   return (
-    <div>
+    <div data-scroll-container>
       <Navbar />
       <Routes />
       <Footer />

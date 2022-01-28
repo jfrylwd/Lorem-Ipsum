@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { logout } from "../store";
 
 const Footer = () => (
-  <div className="footer bg-primary">
+  <div className="footer bg-primary" data-scroll-section>
     <ul>
       <li>Site created by Jeffrey Wood (MFA 2021)</li>
       <li>
@@ -27,9 +27,7 @@ const Footer = () => (
       <li>Brooklyn, New York, NY</li>
       <li>
         2022
-        <li>
-          <img src="./peace.png" className="thumbnail" />
-        </li>
+        <img src="./peace.png" className="thumbnail" />
       </li>
     </ul>
   </div>

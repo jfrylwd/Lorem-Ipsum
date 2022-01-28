@@ -20,7 +20,7 @@ const Navbar = () => {
   };
 
   return (
-    <>
+    <div>
       <div className="navbar">
         <span className="header ml-2">
           <a href="#top">Lorem</a>
@@ -57,7 +57,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-    </>
+    </div>
   );
 };
 /**
