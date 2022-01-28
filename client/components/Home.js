@@ -7,11 +7,15 @@ import { connect } from "react-redux";
 export const Home = () => {
   return (
     <>
-      <div id="#welcome" className="container splash">
+      <div
+        id="#welcome"
+        className="container splash has-scroll-smooth"
+        data-scroll-section
+      >
         <video muted autoPlay="autoplay" loop>
           <source src="waves.mp4" type="video/mp4"></source>
         </video>
-        <div className="welcome">
+        <div className="welcome" data-scroll>
           <div>
             <h3>Welcome to Lorem</h3>
           </div>
@@ -31,11 +35,14 @@ export const Home = () => {
         {/* <span className="scroll">Scroll down</span> */}
       </div>
       <span id="getstarted"></span>
-      <div className="content flex justify-center where">
+      <div
+        className="content flex justify-center where has-scroll-smooth"
+        data-scroll-section
+      >
         <div className="m-1 w-24 flex ">
           <img src="/nygold.jpeg" />
         </div>
-        <div className="flex-col intro block">
+        <div className="flex-col intro block" data-scroll>
           <p className="header">Lorem, where things work, beautifully</p>
 
           <p className="">
@@ -59,8 +66,12 @@ export const Home = () => {
       </div>
 
       {/* next view */}
-      <div id="auth" className="content flex bg-lightgrey auth">
-        <div className="px-4">
+      <div
+        id="auth"
+        className="content flex bg-lightgrey auth has-scroll-smooth"
+        data-scroll-section
+      >
+        <div className="px-4" data-scroll data-scroll-speed="1">
           <p className="header">Create an Account for Free</p>
           <p>
             <a>Already a member? Log in instead</a>
