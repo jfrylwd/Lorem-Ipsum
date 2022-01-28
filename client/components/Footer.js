@@ -19,6 +19,8 @@ const Footer = () => (
       <li>
         <a href="https://jeffreylwood.com/">Website</a>
       </li>
+    </ul>
+    <ul>
       <li>
         <a href="mailto:jeffreywood.dev@gmail.com">jeffreywood.dev@gmail.com</a>
       </li>
