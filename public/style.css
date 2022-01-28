@@ -206,14 +206,16 @@ ul {
   padding: 4rem;
   display: flex;
 }
-
+.pl-2 {
+  padding-left: 2rem;
+}
 .footer a {
   color: white;
 }
 .footer li {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  margin-right: 2rem;
+  margin-right: 3rem;
 }
 input,
 textarea {
@@ -228,6 +230,7 @@ textarea {
 .items-baseline {
   align-items: baseline;
 }
+
 .welcome {
   display: flex;
   width: 50%;
@@ -304,7 +307,10 @@ video {
   z-index: -1;
   position: fixed;
 }
-
+.thumbnail {
+  width: auto;
+  height: 2rem;
+}
 .splash {
   z-index: -1;
 }

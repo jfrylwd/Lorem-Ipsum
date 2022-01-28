@@ -19,13 +19,18 @@ const Footer = () => (
       <li>
         <a href="https://jeffreylwood.com/">Website</a>
       </li>
-    </ul>
-    <ul>
       <li>
         <a href="mailto:jeffreywood.dev@gmail.com">jeffreywood.dev@gmail.com</a>
       </li>
+    </ul>
+    <ul>
       <li>Brooklyn, New York, NY</li>
-      <li>2022</li>
+      <li>
+        2022
+        <li>
+          <img src="./peace.png" className="thumbnail" />
+        </li>
+      </li>
     </ul>
   </div>
 );
