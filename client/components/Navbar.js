@@ -29,14 +29,14 @@ const Navbar = () => {
           </a>
         </span>
         <nav>
-          <a href="#auth" data-scroll-to>
-            Components
-          </a>
-
-          <a href="#getstarted" data-scroll-to>
-            Text and Images
-          </a>
-
+          <div>
+            <a href="#getstarted" data-scroll-to>
+              About
+            </a>
+            <a href="#auth" data-scroll-to>
+              Sign Up
+            </a>
+          </div>
           <div>
             <a href="#auth" data-scroll-to>
               <button type="button">Sign Up</button>
@@ -50,13 +50,8 @@ const Navbar = () => {
       <div className={menu} data-scroll-section>
         <ul data-scroll>
           <li onClick={closeHandler}>
-            <a href="#auth" data-scroll-to>
-              Components
-            </a>
-          </li>
-          <li onClick={closeHandler}>
             <a href="#getstarted" data-scroll-to>
-              Text and Images
+              About
             </a>
           </li>
           <li onClick={closeHandler}>
