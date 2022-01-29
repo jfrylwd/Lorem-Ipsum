@@ -20,3 +20,18 @@ const scroll = new LocomotiveScroll({
   el: document.querySelector("[data-scroll-container]"),
   smooth: true,
 });
+
+// let components = document.querySelector("#components");
+// scroll.scrollTo("#auth", {
+//   offset: 0,
+//   callback: function () {
+//     // do something...
+//   },
+//   duration: 600,
+//   easing: [0.25, 0.0, 0.35, 1.0],
+//   disableLerp: true,
+// });
+
+// components.on("click", scrollTo("auth"), {
+//   offset: 0,
+// });

@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import { logout } from "../store";
 import { useState, useEffect } from "react";
+
 const Navbar = () => {
   let [toggle, setToggle] = useState(false);
 
@@ -20,23 +21,28 @@ const Navbar = () => {
   };
 
   return (
-    <div>
-      <div className="navbar">
+    <>
+      <div className="navbar" data-scroll-section>
         <span className="header ml-2">
-          <a href="#top">Lorem</a>
+          <a href="#top" data-scroll-to>
+            Lorem
+          </a>
         </span>
         <nav>
-          <div>
-            <a href="#auth">Components</a>
-            <a href="#getstarted">Text and Images</a>
-          </div>
+          <a href="#auth" data-scroll-to>
+            Components
+          </a>
+
+          <a href="#getstarted" data-scroll-to>
+            Text and Images
+          </a>
+
           <div>
             <a href="#auth">
               <button type="button">Sign Up</button>
             </a>
-            <Link to="/">
-              <button type="button">Login</button>
-            </Link>
+
+            <button type="button">Login</button>
           </div>
         </nav>
         <div className="toggle" onClick={clickHandler}></div>
@@ -57,7 +63,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </>
   );
 };
 /**

@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import { logout } from "../store";
 
 const Footer = () => (
-  <div className="footer bg-primary" data-scroll-section>
-    <ul>
+  <div id="" className="footer bg-primary" data-scroll-section>
+    <ul data-scroll data-scroll-speed="2">
       <li>Site created by Jeffrey Wood (MFA 2021)</li>
       <li>
         <a href="https://github.com/JeffreyLWood">Github</a>
@@ -23,7 +23,7 @@ const Footer = () => (
         <a href="mailto:jeffreywood.dev@gmail.com">jeffreywood.dev@gmail.com</a>
       </li>
     </ul>
-    <ul>
+    <ul data-scroll data-scroll-speed=".5">
       <li>Brooklyn, New York, NY</li>
       <li>
         2022
