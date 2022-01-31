@@ -39,10 +39,14 @@ const Navbar = () => {
           </div>
           <div>
             <a href="#auth" data-scroll-to>
-              <button type="button">Sign Up</button>
+              <button type="button" className="ml-1">
+                Sign Up
+              </button>
             </a>
 
-            <button type="button">Login</button>
+            <button type="button" className="ml-1">
+              Login
+            </button>
           </div>
         </nav>
         <div className="toggle" onClick={clickHandler}></div>

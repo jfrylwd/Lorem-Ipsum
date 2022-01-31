@@ -53,6 +53,9 @@ nav {
   font-weight: 300;
 }
 
+.ml-1 {
+  margin-left: 1rem;
+}
 .ml-2 {
   margin-left: 2rem;
 }
@@ -118,7 +121,9 @@ img {
   color: white;
   cursor: pointer;
 }
-
+.justify-around {
+  justify-content: space-around;
+}
 .container {
   width: 100vw;
   height: 100vh;
@@ -127,7 +132,7 @@ img {
 
 .content {
   width: 100vw;
-  min-height: 90vh;
+  min-height: 100vh;
   object-fit: contain;
   z-index: 1;
   background-color: white;
@@ -318,6 +323,9 @@ video {
   width: 100%;
   height: auto;
 }
+.p-10 {
+  padding: 10rem;
+}
 .pill {
   padding: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 99px;
@@ -333,6 +341,10 @@ video {
   border-style: hidden;
   color: white;
   cursor: pointer;
+}
+.my-1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .intro p {
   margin-bottom: 4rem;

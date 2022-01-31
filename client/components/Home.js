@@ -8,10 +8,18 @@ export const Home = () => {
   return (
     <>
       <section data-scroll-section>
-        <div id="welcome" className="container splash" data-scroll>
-          <video muted autoPlay="autoplay" loop>
-            <source src="waves.mp4" type="video/mp4"></source>
-          </video>
+        <div id="video" className="container splash" data-scroll>
+          <video
+            src="waves.mp4"
+            type="video/mp4"
+            muted
+            autoPlay="autoplay"
+            loop
+            data-scroll
+            data-scroll-sticky
+            data-scroll-target="#video"
+          />
+
           <div className="welcome" data-scroll data-scroll-speed="5">
             <div>
               <h3>Welcome to Lorem</h3>
@@ -24,18 +32,20 @@ export const Home = () => {
               </p>
             </div>
             <a href="#getstarted" data-scroll-to>
-              <button type="button">Get Started</button>
+              <button type="button" data-scroll>
+                Get Started
+              </button>
             </a>
           </div>
         </div>
       </section>
       {/* Next view */}
       <section id="getstarted" data-scroll-section>
-        <div className="content flex justify-center where">
-          <div className="m-1 w-24 flex">
+        <div className="content flex where p-10">
+          <div className="my-2 w-24 flex">
             <img src="/nygold.jpeg" data-scroll data-scroll-speed="2" />
           </div>
-          <div className="flex-col intro block">
+          <div className="flex-col intro ml-2 block">
             <p className="header" data-scroll data-scroll-speed="1">
               Lorem, where things work, beautifully
             </p>
@@ -55,7 +65,7 @@ export const Home = () => {
               dolores expedita ipsum quam.
             </p>
             <p>
-              <button className="pill px-4 my-2">Create an Account</button>
+              <button className="pill">Create an Account</button>
             </p>
           </div>
         </div>
